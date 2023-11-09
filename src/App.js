@@ -130,7 +130,7 @@ function App() {
           });
         });
         setContador((prevContador) => Number(prevContador) + 1);
-        if (contador === 1) {
+        if (contador ===5) {
           terminacion();
           setIsPaused(true)
         }
@@ -154,7 +154,7 @@ function App() {
       <h1>Pokemon Matching</h1>
       <h5>
         Prueba tu memoria con pokemons!! Un trabajo de Benjamin Oyarzun,
-        Santiago Faginoli, Nicolas Pereyra y Lautaro Faure.
+        Santiago Faginoli, Ariadna Ali.
       </h5>
       <button onClick={shuffleCards} className="btn">
         Nuevo juego
